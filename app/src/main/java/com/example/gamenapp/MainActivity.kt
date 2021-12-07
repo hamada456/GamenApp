@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SecondActivity::class.java)
             //生成したオブジェクトを引数に画面を起動！
             startActivity(intent)
+
+            //画面を切り替えているというより重ねている
         }
     }
 }

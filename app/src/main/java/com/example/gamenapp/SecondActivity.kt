@@ -12,6 +12,7 @@ class SecondActivity : AppCompatActivity() {
         val btnBack :Button = findViewById(R.id.btnBack)
 
         btnBack.setOnClickListener {
+            //画面遷移時に遷移元のActivityを終了する
             finish()
         }
     }
